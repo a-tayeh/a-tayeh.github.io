@@ -12,14 +12,93 @@
 .dwn-line-vcu {
   float: left;
   border-left: 1px solid black;
-  height: 50px;
-  margin-top: 24px;
-  margin-left: -8px;
+  height: 76px;
+  margin-top: 20px;
+  margin-left: -9px;
 }
 .dwn-line-hs {
   float: left;
   border-left: 1px solid black;
   height: 30px;
-  margin-top: 24px;
-  margin-left: -8px;
+  margin-top: 20px;
+  margin-left: -9px;
+}
+.skills {
+  margin-top: 15px;
+}
+.desc {
+  margin-left: 320px;
+}
+.emp {
+  height: 60px;
+  padding-right: 150px;
+}
+.emp-desc {
+  padding-left: 130px;
+}
+.emp-title {
+  padding-left: 130px;
+}
+.emp-cir {
+  padding-left: 90px;
+  margin-top: 20px;
+}
+
+.dwn-line-emp1 {
+  float: left;
+  border-left: 1px solid black;
+  height: 122px;
+  margin-top: 15px;
+  margin-left: -7px;
+}
+.dwn-line-emp2 {
+  float: left;
+  border-left: 1px solid black;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: -7px;
+}
+.dwn-line-emp3 {
+  float: left;
+  border-left: 1px solid black;
+  height: 123px;
+  margin-top: 15px;
+  margin-left: -7px;
+}
+.dwn-line-emp4 {
+  float: left;
+  border-left: 1px solid black;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: -7px;
+}
+.projects {
+  padding-right: 52px;
+  margin-top: 15px;
+}
+.extracurricular {
+  // padding-right: 40px;
+  margin-top: 15px;
+  padding-right: 52px;
+}
+.social {
+  margin-top: 60px;
+  padding-left: 150px;
+  margin-left: 100px;
+}
+@media print {
+  body {
+    background-color: #ffffff;
+    background-image: none;
+    color: #000000;
+  }
+  #ad {
+    display: none;
+  }
+  #leftbar {
+    display: none;
+  }
+  #contentarea {
+    width: 100%;
+  }
 }
